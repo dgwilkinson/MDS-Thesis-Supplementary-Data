@@ -20,3 +20,7 @@ Supplementary Data for my Master of Data Science Research Project entitled *"Imp
 - `download_dataset.sh` - Bash script for downloading the entire dataset from a `.txt` file of links
 - `get_download_links.py` - Retrieves download links for files in a Zenodo repository
 - `optimise_clustering.R` - Contains a cluster optimisation function used by both snRNA-seq and spatial-seq analysis
+
+***
+**Note**: The implementation of this pipeline was inspired by the publication ["*Spatial multi-omic map of human myocardial infarction*"](https://www.nature.com/articles/s41586-022-05060-x) and greatly facilitated by guidance from code available in the [saezlab/visium_heart](https://github.com/saezlab/visium_heart) GitHub repository. 
+***
