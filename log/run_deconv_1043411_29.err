@@ -1,0 +1,5 @@
+Global seed set to 0
+Traceback (most recent call last):
+  File "/nobackup/dwzj28/research_project/dataset/spatialRNA/../../src/spatialRNA_analysis/run_deconv.py", line 17, in <module>
+    sample_path, inf_aver_path, out_path = list(map(os.path.expanduser, sys.argv[1:-1]))
+ValueError: not enough values to unpack (expected 3, got 2)

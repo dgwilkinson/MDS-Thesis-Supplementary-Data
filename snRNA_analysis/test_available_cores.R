@@ -1,0 +1,5 @@
+library(future)
+plan("multiprocess")
+print(availableCores(which = "all"))
+print(plan())
+print(availableCores())

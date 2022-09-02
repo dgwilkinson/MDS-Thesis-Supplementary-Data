@@ -1,0 +1,51 @@
+Anndata setup with scvi-tools version 0.17.1.
+
+Setup via `Cell2location.setup_anndata` with arguments:
+{
+    'layer': None,
+    'batch_key': 'orig.ident',
+    'labels_key': 'opt_clust',
+    'categorical_covariate_keys': None,
+    'continuous_covariate_keys': None
+}
+
+         Summary Statistics         
++----------------------------------+
+|     Summary Stat Key     | Value |
+|--------------------------+-------|
+|          n_vars          | 12938 |
+|         n_cells          | 4269  |
+|         n_batch          |   1   |
+|         n_labels         |   8   |
+| n_extra_categorical_covs |   0   |
+| n_extra_continuous_covs  |   0   |
++----------------------------------+
+               Data Registry                
++------------------------------------------+
+| Registry Key |    scvi-tools Location    |
+|--------------+---------------------------|
+|      X       |          adata.X          |
+|    batch     | adata.obs['_scvi_batch']  |
+|    labels    | adata.obs['_scvi_labels'] |
+|    ind_x     |   adata.obs['_indices']   |
++------------------------------------------+
+                     batch State Registry                     
++------------------------------------------------------------+
+|     Source Location     | Categories | scvi-tools Encoding |
+|-------------------------+------------+---------------------|
+| adata.obs['orig.ident'] |   10X001   |          0          |
++------------------------------------------------------------+
+                    labels State Registry                    
++-----------------------------------------------------------+
+|    Source Location     | Categories | scvi-tools Encoding |
+|------------------------+------------+---------------------|
+| adata.obs['opt_clust'] |     0      |          0          |
+|                        |     1      |          1          |
+|                        |     2      |          2          |
+|                        |     3      |          3          |
+|                        |     4      |          4          |
+|                        |     5      |          5          |
+|                        |     6      |          6          |
+|                        |     7      |          7          |
++-----------------------------------------------------------+
+Training:   0%|          | 0/500 [00:00<?, ?it/s]Epoch 1/500:   0%|          | 0/500 [00:00<?, ?it/s]Epoch 1/500:   0%|          | 1/500 [00:30<4:14:00, 30.54s/it]Epoch 1/500:   0%|          | 1/500 [00:30<4:14:00, 30.54s/it, v_num=1, elbo_train=4.18e+7]Epoch 2/500:   0%|          | 1/500 [00:30<4:14:00, 30.54s/it, v_num=1, elbo_train=4.18e+7]Epoch 2/500:   0%|          | 2/500 [00:39<2:25:44, 17.56s/it, v_num=1, elbo_train=4.18e+7]Epoch 2/500:   0%|          | 2/500 [00:39<2:25:44, 17.56s/it, v_num=1, elbo_train=4.17e+7]Epoch 3/500:   0%|          | 2/500 [00:39<2:25:44, 17.56s/it, v_num=1, elbo_train=4.17e+7]Epoch 3/500:   1%|          | 3/500 [00:47<1:51:13, 13.43s/it, v_num=1, elbo_train=4.17e+7]Epoch 3/500:   1%|          | 3/500 [00:47<1:51:13, 13.43s/it, v_num=1, elbo_train=4.11e+7]Epoch 4/500:   1%|          | 3/500 [00:47<1:51:13, 13.43s/it, v_num=1, elbo_train=4.11e+7]Epoch 4/500:   1%|          | 4/500 [00:56<1:35:00, 11.49s/it, v_num=1, elbo_train=4.11e+7]Epoch 4/500:   1%|          | 4/500 [00:56<1:35:00, 11.49s/it, v_num=1, elbo_train=4.1e+7] Epoch 5/500:   1%|          | 4/500 [00:56<1:35:00, 11.49s/it, v_num=1, elbo_train=4.1e+7]Epoch 5/500:   1%|1         | 5/500 [01:04<1:26:00, 10.43s/it, v_num=1, elbo_train=4.1e+7]Epoch 5/500:   1%|1         | 5/500 [01:04<1:26:00, 10.43s/it, v_num=1, elbo_train=4.05e+7]Epoch 6/500:   1%|1         | 5/500 [01:04<1:26:00, 10.43s/it, v_num=1, elbo_train=4.05e+7]Epoch 6/500:   1%|1         | 6/500 [01:13<1:20:33,  9.78s/it, v_num=1, elbo_train=4.05e+7]Epoch 6/500:   1%|1         | 6/500 [01:13<1:20:33,  9.78s/it, v_num=1, elbo_train=4.05e+7]Epoch 7/500:   1%|1         | 6/500 [01:13<1:20:33,  9.78s/it, v_num=1, elbo_train=4.05e+7]

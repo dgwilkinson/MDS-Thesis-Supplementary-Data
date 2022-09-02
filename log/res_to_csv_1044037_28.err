@@ -1,0 +1,5 @@
+/var/spool/slurmd/job1044066/slurm_script: line 20: activate: No such file or directory
+Traceback (most recent call last):
+  File "/nobackup/dwzj28/research_project/dataset/spatialRNA/../../src/spatialRNA_analysis/results_to_csv.py", line 16, in <module>
+    res_path, out_path = map(os.path.expanduser, sys.argv[1:-1])
+ValueError: not enough values to unpack (expected 2, got 1)

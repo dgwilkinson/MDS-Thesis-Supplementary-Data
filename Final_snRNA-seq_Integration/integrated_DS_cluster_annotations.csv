@@ -1,0 +1,17 @@
+opt_clust,cell_type
+1,0,regular ventricular cardiac myocyte
+2,1,fibroblast
+3,10,endothelial cell of artery
+4,11,fibroblast
+5,12,capillary endothelial cell
+6,13,neural cell
+7,14,smooth muscle cell
+8,15,dendritic cell
+9,2,macrophage
+10,3,capillary endothelial cell
+11,4,pericyte cell
+12,5,regular ventricular cardiac myocyte
+13,6,fibroblast
+14,7,vein endothelial cell
+15,8,CD8-positive alpha-beta cytotoxic T cell
+16,9,regular ventricular cardiac myocyte
