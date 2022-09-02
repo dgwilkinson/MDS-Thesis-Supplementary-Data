@@ -5,7 +5,7 @@ Supplementary Data for my Master of Data Science Research Project entitled *"Imp
 ### Raw Visualisations + Tables:
 - `Alternative_snRNA-seq_Integrations` - A collection of plots depicting various procedures for the integration of snRNA-seq data incl. Subsetting samples (`P14` suffix), RPCA-based on downsampled population, Referenced CCA-based (`ref` suffix)
 - `Final_snRNA-seq_Integration` - Plots from downstream analysis on the CCA-based Downsampled snRNA-seq Integration
-- `Region_Death_Signature_and_Loss - Plots depicting trends in spot loss and death signature between major regions (IZ, FZ, BZ, RZ, and Ctrl)
+- `Region_Death_Signature_and_Loss` - Plots depicting trends in spot loss and death signature between major regions (IZ, FZ, BZ, RZ, and Ctrl)
 - `Sample QC` - Quality control plots and tables across snRNA-seq and spatial-seq samples before and after processing 
 - `Spatial-seq_Sample_Visualisations` - Visualisations produced throughout the pipeline for individual spatial-seq samples 
 - `snRNA-seq_Sample_Visualisations` - Visualisations produced throughout the pipeline for individual snRNA-seq samples
